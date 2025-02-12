@@ -1,8 +1,7 @@
-
 # Ex.No: 1 Write programs in Python Language to demonstrate the working of followingconstructs with possible test cases: a) do…while b) while…do c) if …else d) switch e) for 
 
-### DATE:                                                                      
-### REGISTER NUMBER : 212221040031
+### DATE: 6-2-25                                                                          
+### REGISTER NUMBER : 212221040184
 
 ### AIM:  
 To write python programs for do…while, while, for, switch and if…else and test with possible test 
@@ -15,9 +14,7 @@ Cases
 4.  the program with possible test cases.
 5. Stop the program.
 ### Program:
-
-### i.)do…while: 
-
+### i)do..while
 ```
 def display():
      start=input("Enter a positive value for START: ")
@@ -33,11 +30,9 @@ def display():
                 break
       else:
         print("Enter a valid positive number.") 
-  display() 
+  display()
 ```
-
-### ii.) while…do 
-
+### ii) while..do
 ```
 start=input("Enter a positive value for START: ") 
 end=input("Enter a positive value for END: ")
@@ -49,11 +44,8 @@ if start.isnumeric() and end.isnumeric():
           start+=1
 else:
    print("Enter a valid positive number.")
-
 ```
-
-### iii.) switch 
-
+### Switch
 ```
 def switch():
     switcher={
@@ -65,12 +57,9 @@ n=input('Enter a value for N: ') try:
   print(switcher[n%2])
 except ValueError:
    print("Enter a valid number.")
-switch() 
-
+switch()
 ```
-
-### iv.) if else
-
+###  if..else
 ```
 def compare():
   a=input("Enter a value for A: ")
@@ -85,151 +74,46 @@ def compare():
      else:
         print("A is equal to B")
   except ValueError:
-        print(“Enter a valid number.”) 
-
+        print(“Enter a valid number.”)
 ```
-
-### v.) for
-
-```
+### v) for
 def iterate():
     string=input("Enter a string: ") for
     i in string:
        print(ord(i),end=" ")
 iterate() 
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Output:
-
-### i.)do…while: 
-```
-Positive numbers
-Enter a positive value for START: 1
-Enter a positive value for END: 4
-1 2 3 4 
-
-Negative numbers
-Enter a positive value for START: -10
-Enter a positive value for END: 5 Enter
-a valid positive number. 
-
-Character and string input
-Enter a positive value for START: hello
-Enter a positive value for END: y
-Enter a valid positive number. 
-
-Null input
-Enter a positive value for START:
-Enter a positive value for END:
-Enter a valid positive number. 
-```
+### do..while
+ ![image](https://github.com/user-attachments/assets/c2229a2c-12ab-4814-8be4-1d63f1dcafbb)
+### while..do
+ ![image](https://github.com/user-attachments/assets/565fdd1f-1246-4081-9273-f6425145de1b)
+### switch
+ ![image](https://github.com/user-attachments/assets/5c183abb-3039-4652-b1b6-57b4fa8fffa9)
+### if..else
+ ![image](https://github.com/user-attachments/assets/fc5e32c5-5a39-45cc-acbb-895372422a59)
+### for
+ ![image](https://github.com/user-attachments/assets/7bb0f593-68ae-4641-abcb-6d5284a513c1)
+ 
 
 
-### ii.) while…do 
-```
-Positive numbers
-Enter a positive value for START: 1
-Enter a positive value for END: 4
-1 2 3 4 
 
 
-Negative numbers
-Enter a positive value for START: -10
-Enter a positive value for END: 5 Enter
-a valid positive number. 
 
 
-Character and string input
-Enter a positive value for START: abc
-Enter a positive value for END: 100
-Enter a valid positive number. 
 
 
-Null input
-Enter a positive value for START:
-Enter a positive value for END:
-Enter a valid positive number. 
 
 
-```
 
 
-### iii.) switch 
-```
-Positive numbers
-Enter a value for N: 1
-odd
-
-Negative numbers
-Enter a value for N: -10
-even
 
 
-Character and string input
-Enter a value for N: hello
-Enter a valid number.
 
 
-Null input
-Enter a value for N:
-Enter a valid number. 
-
-```
-
-### iv.) if else
-```
-
-Positive numbers
-Enter a value for A: 1
-Enter a value for B: 1
-A is equal to B.
 
 
-Negative numbers
-Enter a value for A: -10
-Enter a value for B: 5 B
-is greater than A.
 
 
-Character and string input
-Enter a value for A: hello
-Enter a value for B: y
-Enter a valid number.
-
-
-Null input
-Enter a value for A:
-Enter a value for B:
-Enter a valid number. 
-```
-
-
-### v.) for 
-```
-Characters
-Enter a string: say
-115 97 121
-
-Number
-Enter a string: 1543
-49 53 52 51
-
-Null input
-Enter a string: 
-```
 
 
 
@@ -240,3 +124,5 @@ Enter a string:
 
 ### Result:
 Thus, the python program to demonstrate the working of given constructs is implemented and the output is verified successfully.
+
+
